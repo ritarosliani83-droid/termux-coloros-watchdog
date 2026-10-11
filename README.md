@@ -1,4 +1,6 @@
-# termux-coloros-watchdog
+# wireless debugging on, then inside Termux:
+adb connect 127.0.0.1:<port>
+./diagnose.sh                      # or: ./diagnose.sh com.termux some.other.app# termux-coloros-watchdog
 
 Keep long-running Termux scripts alive on OPPO / OnePlus / realme phones (ColorOS, OxygenOS), and find out **why** Android killed them.
 
